@@ -13,6 +13,29 @@ public class Main {
     // Creates scanner for user input
     Scanner input = new Scanner(System.in);
 
+    //switch case example
+    //get the user choice between 1 and 5
+    System.out.println("please make a selection (1-5)");
+    int choice = input.nextInt();
+    switch(choice){
+      case 1:
+       System.out.println("Here is your chocolate bar");
+       break;
+      case 2:
+       System.out.println("Here are your Skittles");
+       break;
+      case 3:
+       System.out.println("Here are your M&M's");
+       break;
+      case 4:
+       System.out.println("Here are your chips");
+      default:
+       System.out.println("Invalid choice");
+
+    }
+
+
+    //nested statements example
     //Asks user if animal has feathers
     System.out.println("Does the animal have feathers? (yes/no)");
     String featherAnswer = input.nextLine();
@@ -32,7 +55,7 @@ public class Main {
 
       //if the user answered no
     }else{
-      
+
     }
     
   }
